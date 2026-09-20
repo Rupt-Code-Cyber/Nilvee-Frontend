@@ -1,0 +1,17 @@
+[build]
+  # The directory where Netlify looks for dependency files (like package.json)
+  # Leave blank "" if your project is not in a subdirectory
+  base = ""
+
+  # The command Netlify runs to build your project
+  command = "npm run build"
+
+  # The directory Netlify will host on the web (change to "build", "out", etc., depending on your framework)
+  publish = "dist"
+
+# Optional: This section handles routing for Single Page Apps (like React/Vue) 
+# It prevents 404 errors when a user refreshes a sub-page
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
