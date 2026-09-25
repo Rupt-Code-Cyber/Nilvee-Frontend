@@ -1,4 +1,3 @@
-import React from 'react';
 
 const columns = [
 {
@@ -23,7 +22,7 @@ const columns = [
   title: 'CONTACT',
   links: [
   { label: 'Start a project', href: '#contact' },
-  { label: 'engineering@nilvee.com', href: 'mailto:engineering@nilvee.com' }]
+  { label: 'engineering@nilvee.online', href: 'mailto:engineering@nilvee.com' }]
 
 }];
 

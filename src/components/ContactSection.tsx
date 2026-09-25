@@ -21,7 +21,7 @@ export function ContactSection() {
                   href="mailto:engineering@nilvee.com"
                   className="text-white transition-colors duration-150 ease-out hover:text-signal focus:outline-none focus-visible:ring-2 focus-visible:ring-signal">
                   
-                  engineering@nilvee.com
+                  engineering@nilvee.online
                 </a>
               </ContactRow>
               <ContactRow icon={<ClockIcon className="h-4 w-4" />} label="RESPONSE">
